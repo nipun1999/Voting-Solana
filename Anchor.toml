@@ -1,0 +1,12 @@
+[programs.localnet]
+voting = "H6TMQ3vkvJzmx9ESqWrtvbqNJhH5QwNuERdWK13nkgT7"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/nipun/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
